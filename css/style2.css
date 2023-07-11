@@ -1,0 +1,36 @@
+
+body{ /* css sifirlama */
+margin: 0;
+padding: 0;
+}
+
+.kutu{
+width: 100px;
+height: 100px;
+}
+
+.kutu1{
+    background-color: blue;
+    
+}
+
+.kutu2{
+    background-color: chartreuse;
+    flex: 2;
+}
+
+.kutu3{
+    background-color: deeppink;
+    flex: 3;
+}
+
+.kutu4{
+    background-color: yellow;
+}
+.container{ 
+    display: flex; /*kutulari yanyana getirdi*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,61 @@
+*{
+    text-align: center;
+}
+/*
+   * butun elemanlari secti
+*/
+h2{
+    color: green;
+}
+
+.p1{
+
+    color: rgb(243, 0, 32);
+    font-size: 20px;
+}
+
+.p2{
+    color: blue;
+    font-size: 25px;
+}
+
+*{
+    background-color: rgb(255, 255, 255);
+}
+
+.a1{ 
+    text-decoration: none;
+}
+
+.span1{
+    color: purple;
+}
+.span2{
+    color: green;
+}
+
+.anabaslik{
+    border: 2px solid purple;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+}
+
+.div1{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 5px black;
+}
+
+.div2{
+    background-color: yellow;
+    width: 120px;
+    height: 120px;
+    border: 2px solid red;
+    border-radius: 120px;
+    box-shadow: 5px 5px 20px 5px black; 
+}
+
+

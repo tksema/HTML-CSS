@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--html5 ile gelen doctype-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ilk Web Sayfam</title>
+  </head>
+  <body>
+    HELLO HTML
+
+    <!--
+        html bir programlama dili degil,isaretleme dilidir. html komutlarina tag denir.  <> arasina yazilir.
+
+        p -> yazilari paragraf haline getirir. lorem... <p>..</p>  lorem paragrafi doldurur zaman kazanmak icin. (inline)
+
+        br -> metin icinde satir basi yapmak icin kullanilir  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                                                                Tempore excepturi doloribus pariatur a assumenda officiis!</p>
+
+        NOTE => Html kodlarken alt satira gecmke icin enter tusuna basilmasinin veya kelimler arasinda birden fazla bosluk birakmak icin space'e
+        basilmasinin ziyaretci tarafinda hicbir etkisi YOKTUR. Alt satira gecmesi icin <br> tag'ini gormesi gerekir.        
+    -->
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore excepturi
+      doloribus pariatur a assumenda officiis!
+    </p>
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nulla
+      corporis cum inventore aspernatur. <br />
+      Enim dicta distinctio ducimus quo debitis!
+    </p>
+
+    <!--
+        h1 h2 .. -> Yazilari baslik haline getirir.Standart 6 tane baslik tag'i bulunmaktadir.(Blok satir)
+
+        hr -> (horizontal row) yatay cizgi olusturmak icin kullanilir. <hr>
+
+        strong -> metinleri kalinlastirmak icin kullanilir.
+
+        i -> italik yazdirmak icin kullanilir.
+
+        u -> yazinin altini cizmek icin kullanilir.
+
+        NOTE => ic ice tag'larda once acilan en son kapanir.
+    -->
+
+    <hr />
+    <h1>ANA SAYFA</h1>
+    <hr />
+    <h2>BOLUMLER</h2>
+
+    <p>
+      Lorem ipsum, dolor sit amet <strong>consectetur adipisicing</strong> elit.
+      Obcaecati doloremque expedita nam libero autem veritatis in quos iusto!
+    </p>
+
+    <p>
+      Lorem ipsum <i>dolor sit amet consectetur</i> , adipisicing elit.
+      <u>Accusamus minima</u> rem dignissimos
+      <i> <u>voluptate dolorum</u> </i> corporis, quia fuga cumque.
+    </p>
+
+    <p>
+      Lorem
+      <strong>
+        <i>
+          <u>ipsum dolor sit amet consectetur adipisicing elit</u>
+        </i> </strong
+      >. Labore adipisci veniam unde hic voluptate asperiores!
+    </p>
+
+    <p>
+      <strong>MERHABA <u>DUNYA</u> </strong>
+    </p>
+
+    <hr />
+    <h3>JAVA</h3>
+    <h4>Polimorphism</h4>
+    <hr />
+    <h3>HTML</h3>
+
+    <!--
+        Bicimlendirme olarak hicbir katkisi olmayan sadece html elemanlarini gruplamak icin kullanilan tag'lar
+
+        div -> Blok elemandir,kapladigi alan ne olursa olsun tum satiri isgal eder.
+
+        span -> inline elemandir, sadece kapladigi alan kadar isgal eder.
+    -->
+
+    <!--
+        a -> Web sitelerinde, bir sayfadan baska bir sayfaya, farkli bir siteye baglanti vermek icin icin <a> tag'i kullanilir.  (inline)
+
+        title -> link'in uzerine gelince bilgi verme
+
+        target="_blank" -> yeni sekme de acilmasi
+    -->
+
+    <a href="index2.html">sayfa 2</a>
+
+    <p><a href="index2.html" target="_blank">index2 yeni sekmede ac</a></p>
+
+    <a
+      href="https://lms.techproeducation.com/login/index.php"
+      target="_blank"
+      title="LMS"
+      >lms.giris</a
+    >
+  </body>
+</html>
